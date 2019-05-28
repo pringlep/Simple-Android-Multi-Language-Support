@@ -59,6 +59,7 @@ public class MainActivity extends BaseActivity {
             case R.id.action_arabic:
                 LanguageManager.setNewLocale(this, LanguageManager.LANGUAGE_KEY_ARABIC);
 
+                reLaunchApp();
 
                 return true;
         }
